@@ -1,0 +1,20 @@
+.empty-state {
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-lg);
+  padding: clamp(2.2rem, 6vw, 3.5rem);
+  text-align: center;
+  background: var(--surface);
+}
+.empty-state__icon {
+  width: 46px; height: 46px; margin: 0 auto 18px;
+  border-radius: 50%; border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--accent-2); font-family: var(--font-mono); font-size: 1.1rem;
+}
+.empty-state__title { font-family: var(--font-display); font-size: 1.15rem; margin-bottom: 8px; }
+.empty-state__text { color: var(--muted); max-width: 420px; margin: 0 auto; font-size: 0.95rem; }
+.empty-state__hint {
+  margin-top: 16px; display: inline-block; font-family: var(--font-mono); font-size: 0.78rem;
+  color: var(--muted-2); background: var(--surface-alt); border: 1px solid var(--border);
+  padding: 6px 12px; border-radius: 6px;
+}

@@ -1,0 +1,15 @@
+.about__grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 6vw, 5rem); align-items: start; }
+.about__body p { color: var(--muted); margin-bottom: 18px; font-size: 1rem; }
+.about__panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: clamp(1.6rem, 4vw, 2.4rem); }
+.about__panel-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--border-soft); font-family: var(--font-mono); font-size: 0.9rem; }
+.about__panel-row:last-child { border-bottom: none; }
+.about__panel-label { color: var(--muted-2); }
+.about__panel-value { color: var(--text); text-align: right; }
+.about__socials { display: flex; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
+@media (max-width: 860px) { .about__grid { grid-template-columns: 1fr; } }
+
+.about__panel-avatar {
+  width: 56px; height: 56px; border-radius: 14px; overflow: hidden;
+  border: 1px solid var(--border); margin-bottom: 18px;
+}
+.about__panel-avatar img { width: 100%; height: 100%; object-fit: cover; }
