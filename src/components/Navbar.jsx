@@ -8,6 +8,7 @@ const NAV_ITEMS = [
   { to: "/projects", label: "projects" },
   { to: "/certificates", label: "certificates" },
   { to: "/experience", label: "experience" },
+  { to: "/resume", label: "resume" },
   { to: "/contact", label: "contact" },
 ];
 

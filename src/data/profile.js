@@ -20,7 +20,7 @@ const profile = {
 
   email: "ayush.sh2177@gmail.com",
   phone: "+91 7206543544",
-  resumeUrl: "",
+  resumeUrl: "/resume/Ayush_Sharma_Resume1.pdf",
 
   socials: {
     github: "https://github.com/ayush-cyber1",

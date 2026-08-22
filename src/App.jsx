@@ -7,6 +7,7 @@ import Projects from "./pages/Projects.jsx";
 import Certificates from "./pages/Certificates.jsx";
 import Experience from "./pages/Experience.jsx";
 import Contact from "./pages/Contact.jsx";
+import Resume from "./pages/Resume.jsx";
 import NotFound from "./pages/NotFound.jsx";
 
 function ScrollToTop() {
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/certificates" element={<Certificates />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

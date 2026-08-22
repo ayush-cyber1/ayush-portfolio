@@ -1,0 +1,28 @@
+.resume-page__actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.resume-page__viewer {
+  width: 100%;
+  aspect-ratio: 8.5 / 11;
+  max-height: 85vh;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.resume-page__viewer iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.resume-page__fallback {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 16px;
+}
