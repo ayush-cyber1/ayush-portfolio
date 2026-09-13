@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Personal portfolio website for Ayush Sharma — Aspiring Data Scientist / Data Analyst",
-  "homepage": "https://YOUR-USERNAME.github.io/ayush-portfolio",
+  "homepage": "https://ayush-cyber1.github.io/ayush-portfolio",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
