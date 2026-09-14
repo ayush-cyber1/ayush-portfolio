@@ -29,6 +29,7 @@ const certificates = [
     issuer: "TCS iON",
     date: "Jul 2026",
     credentialId: "272697-32835035-1016",
+    image: "TCS ION youth prof.png",
   },
   {
     id: "tcs-ion-ai-foundation",
