@@ -5,6 +5,15 @@
 
 const certificates = [
   {
+    id: "isro-iirs-geodata-ai",
+    title: "AI/ML for Geodata Analytics",
+    issuer: "ISRO IIRS (Indian Institute of Remote Sensing)",
+    date: "Aug 2026",
+    credentialId: "Zgu9JPENI6",
+    credentialUrl: "https://isrolms.iirs.gov.in/mod/customcert/verify_certificate.php",
+    image: "isro-iirs-geodata-ai.png",
+  },
+  {
     id: "oracle-agentic-ai-foundations",
     title: "Oracle Certified Foundations Associate — Agentic AI",
     issuer: "Oracle University",

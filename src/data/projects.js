@@ -11,6 +11,7 @@ const projects = [
     description:
       "Compared multiple machine learning algorithms across two classic problems — breast cancer classification and diabetes progression regression — with full evaluation via confusion matrices, ROC curves, and residual plots.",
     tags: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Seaborn"],
+    image: "ml-predictive-modeling.png",
     githubUrl: "https://github.com/ayush-cyber1/-Ml-predictive-modeling",
     featured: true,
   },
@@ -20,6 +21,7 @@ const projects = [
     description:
       "An interactive Flask web app that predicts customer churn using Logistic Regression, Random Forest and Neural Network models, alongside an NLP pipeline that analyzes review sentiment in real time.",
     tags: ["Python", "Flask", "Scikit-learn", "PyTorch", "NLP"],
+    image: "churn-sentiment-app.png",
     githubUrl: "https://github.com/ayush-cyber1/churn_sentiment_app",
     featured: true,
   },
@@ -29,6 +31,7 @@ const projects = [
     description:
       "A regression model that predicts IMDb movie ratings from features like genre, director, and cast, using the IMDb Movies India dataset and a tuned Gradient Boosting model. Built during the CodSoft Data Science internship.",
     tags: ["Python", "Pandas", "Scikit-learn", "Gradient Boosting"],
+    image: "movie-rating-prediction.png",
     githubUrl: "https://github.com/ayush-cyber1/codsoft_tasks/tree/main/Movie%20Rating%20Prediction",
     featured: true,
   },
@@ -38,6 +41,7 @@ const projects = [
     description:
       "A sales forecasting model using Random Forest regression to predict product sales from advertising spend and other features, achieving an R² of 0.87. Built during the CodSoft Data Science internship.",
     tags: ["Python", "Pandas", "Scikit-learn", "Random Forest"],
+    image: "sales-prediction.png",
     githubUrl: "https://github.com/ayush-cyber1/codsoft_tasks/tree/main/sales-prediction",
   },
   {
@@ -46,7 +50,55 @@ const projects = [
     description:
       "An end-to-end EDA of the Titanic passenger dataset — statistical summaries, univariate/bivariate/multivariate visualizations, and feature engineering to uncover what drove survival, with sex and class emerging as the strongest predictors.",
     tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter Notebook"],
+    image: "titanic-eda.png",
     githubUrl: "https://github.com/ayush-cyber1/Exploratory-Data-Analysis-EDA-Project",
+  },
+  {
+    id: "graphone-pipeline",
+    title: "Graphone Pipeline",
+    description:
+      "An end-to-end data pipeline that ingests raw graph data, processes and transforms it through multiple stages, and outputs structured analytics-ready outputs. Built for scalable graph-based data workflows.",
+    tags: ["Python", "Data Pipeline", "Graph Analytics", "ETL"],
+    image: "graphone-pipeline.png",
+    githubUrl: "https://github.com/ayush-cyber1/graphone-pipeline",
+    featured: true,
+  },
+  {
+    id: "resume-ai-summarizer",
+    title: "Resume AI Summarizer",
+    description:
+      "A full-stack AI application that takes a resume (PDF or DOCX), runs it through an LLM pipeline, and returns a structured breakdown — ATS-friendliness score, what's working, what's costing interviews, and actionable fixes.",
+    tags: ["Python", "LLM", "NLP", "React", "Flask"],
+    image: "resume-ai-summarizer.png",
+    githubUrl: "https://github.com/ayush-cyber1/resume-ai-summarizer",
+    featured: true,
+  },
+  {
+    id: "interview-trainer-agent",
+    title: "Interview Trainer Agent",
+    description:
+      "An AI-powered interview preparation agent that accepts a resume and target job role, then generates personalized mock interview questions, evaluates answers, and provides tips to help candidates land the role.",
+    tags: ["Python", "LLM", "NLP", "React", "Agent"],
+    image: "interview-trainer-agent.png",
+    githubUrl: "https://github.com/ayush-cyber1/interview-trainer-agent",
+  },
+  {
+    id: "ai-orbit-pipeline",
+    title: "AI Orbit Pipeline",
+    description:
+      "A modular AI/ML pipeline framework designed for rapid experimentation and deployment of machine learning workflows, with plug-and-play components for data ingestion, model training, evaluation, and serving.",
+    tags: ["Python", "Machine Learning", "Pipeline", "MLOps"],
+    image: "ai-orbit-pipeline.png",
+    githubUrl: "https://github.com/ayush-cyber1/ai-orbit-pipeline",
+  },
+  {
+    id: "leet-code-solution",
+    title: "LeetCode Solutions",
+    description:
+      "A curated collection of LeetCode problem solutions written in Python, covering arrays, strings, dynamic programming, graphs, trees, and more — each with clean code and explanatory comments.",
+    tags: ["Python", "Data Structures", "Algorithms", "DSA"],
+    image: "leet-code-solution.png",
+    githubUrl: "https://github.com/ayush-cyber1/leet-code-solution",
   },
 ];
 

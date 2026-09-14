@@ -37,9 +37,9 @@ const profile = {
   },
 
   stats: [
-    { label: "Projects shipped", value: 5 },
-    { label: "Certifications", value: 13 },
-    { label: "Internships", value: 2 },
+    { label: "Projects shipped", value: 10 },
+    { label: "Certifications", value: 15 },
+    { label: "Internships", value: 6 },
   ],
 };
 
